@@ -1,0 +1,12 @@
+*,*::before,*::after{
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.app{
+    background-color: rgb(223, 182, 182);
+}
