@@ -32,5 +32,54 @@ To run this project locally, you need to have the following installed:
 
 ## Steps to run locally
 
-1. **Clone the repository and run npm run dev**:
+1. **Clone the repository**
+   - Open your terminal and run the following command:
+     ```
+     git clone https://github.com/Meetz016/chessboard-redux.git
+     ```
 
+2. **Install dependencies**
+   - Navigate to the project directory and install the necessary dependencies by running:
+     ```
+     npm install
+     ```
+     Or, if you are using yarn:
+     ```
+     yarn install
+     ```
+
+3. **Run the development server**
+   - Start the development server with:
+     ```
+     npm run dev
+     ```
+     Or, with yarn:
+     ```
+     yarn dev
+     ```
+
+4. **Open the app**
+   - After the development server starts, open your browser and go to:
+     ```
+     http://localhost:5173
+     ```
+     This will display the chessboard where you can interact with the tiles.
+
+---
+
+## Project Structure
+
+- **src/**: Contains all the source code files.
+  - **components/**: Contains React components like `Chessboard` and `Tile`.
+  - **features/**: Contains Redux slices for managing the state of the chessboard.
+  - **store.js**: The Redux store configuration.
+  - **App.js**: The main app file that renders the components.
+  - **index.js**: The entry point of the application.
+
+---
+
+## Contributing
+
+Feel free to fork the project and create a pull request if you have any improvements or fixes!
+
+---
