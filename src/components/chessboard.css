@@ -19,3 +19,9 @@
     background-color: black;
     color: white;
 }
+.yellow-tile{
+    background-color: yellow;
+}
+.red-tile{
+    background-color: red;
+}
