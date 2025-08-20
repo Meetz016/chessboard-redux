@@ -8,6 +8,7 @@ function Board() {
     // console.log(tileColors)
 
     const handleClick=(key,currentColor)=>{
+      console.log("Tile clicked")
         dispatch(changeColor({
             key,
             color:currentColor
